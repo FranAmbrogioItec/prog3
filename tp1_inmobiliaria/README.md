@@ -1,3 +1,43 @@
+Este es un desarrollo web moderno construido con *Next.js*, diseñado para la gestión y visualización de propiedades inmobiliarias de manera eficiente y escalable.
+
+## 📝 Descripción del Proyecto
+El proyecto consiste en una plataforma inmobiliaria que permite a los usuarios navegar por un catálogo de inmuebles y acceder a información detallada de cada uno. 
+
+### Características principales:
+* *Rutas Dinámicas:* Implementación de rutas dinámicas en /propiedades/[id] para renderizar los detalles específicos de cada unidad desde el servidor.
+* *Rutas Anidadas:* Estructura organizada para la información institucional, incluyendo una sección especializada en /nosotros/equipo.
+* *Interfaz Moderna:* Diseño enfocado en la experiencia de usuario (UX) utilizando componentes de servidor (Server Components) para un rendimiento óptimo.
+
+---
+
+## 👥 Información del Equipo
+* *Número de Grupo:* 3
+* *Nombre del Equipo:* The Coders
+
+### Integrantes:
+* *Alonso Arias*, Tomas
+* *Ambrogio*, Francisco
+* *Lejtneker*, Agustin
+* *Lacroix*, Nicolas
+* *Lopez*, Maximiliano
+
+---
+
+## 📂 Estructura del Proyecto (Tree)
+
+La organización de carpetas sigue la convención de *Next.js App Router*:
+
+```text
+├── app
+│   ├── contacto           # Formulario de contacto y atención
+│   ├── nosotros           # Información institucional
+│   │   └── equipo         # Ruta anidada: Staff de la inmobiliaria
+│   └── propiedades        # Catálogo principal
+│       └── [id]           # Ruta dinámica: Detalle de propiedad
+└── public                 # Activos estáticos (imágenes, iconos)
+
+
+-------------------------------------------------------------------------------------------------------------------------------------
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
